@@ -34,7 +34,7 @@
     background-color: white;
     position: relative;
     width: 90%;
-    left: 9%;
+    left: 5vw;
     top: 3%;
     transition: opacity 0.3s ease-in-out;
     align-items: center;
@@ -114,19 +114,19 @@
     }
 
     .nameBeerh3 {
-        left: clamp(-3%, -4vw, -5%)
+        left: clamp(2%, 1vw, 3%)
     }
 
     .priceBeerP {
-        left: -4%;
+        left: 3%;
     }
     .beerItem {
-        height: 12vh;
+        height: 16vh;
     }
 
     .imgBeerAll {
-        width: 63%;
-        height: 11vh;
+        width: 72%;
+        height: 14vh;
     }
 }
 
