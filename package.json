@@ -3,17 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "brewdog-js": "^3.0.1",
-    "punkapi-db": "^2.6.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "brewdog-js": "^3.0.1",
+    "punkapi-db": "^2.6.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -40,5 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/KaterynaRev/beer_sUp.github.io.git"
+  "homepage": "https://KaterynaRev/beer_sUp.github.io.git",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
 }

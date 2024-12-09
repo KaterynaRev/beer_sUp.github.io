@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KaterynaRev/beer_sUp.github.io.git/static/css/main.cf59bbee.css",
-    "main.js": "/KaterynaRev/beer_sUp.github.io.git/static/js/main.d6156081.js",
-    "static/js/453.2c09646a.chunk.js": "/KaterynaRev/beer_sUp.github.io.git/static/js/453.2c09646a.chunk.js",
-    "index.html": "/KaterynaRev/beer_sUp.github.io.git/index.html",
-    "main.cf59bbee.css.map": "/KaterynaRev/beer_sUp.github.io.git/static/css/main.cf59bbee.css.map",
-    "main.d6156081.js.map": "/KaterynaRev/beer_sUp.github.io.git/static/js/main.d6156081.js.map",
-    "453.2c09646a.chunk.js.map": "/KaterynaRev/beer_sUp.github.io.git/static/js/453.2c09646a.chunk.js.map"
+    "main.css": "/beer_sUp.github.io.git/static/css/main.cf59bbee.css",
+    "main.js": "/beer_sUp.github.io.git/static/js/main.326fde2f.js",
+    "static/js/453.2c09646a.chunk.js": "/beer_sUp.github.io.git/static/js/453.2c09646a.chunk.js",
+    "index.html": "/beer_sUp.github.io.git/index.html",
+    "main.cf59bbee.css.map": "/beer_sUp.github.io.git/static/css/main.cf59bbee.css.map",
+    "main.326fde2f.js.map": "/beer_sUp.github.io.git/static/js/main.326fde2f.js.map",
+    "453.2c09646a.chunk.js.map": "/beer_sUp.github.io.git/static/js/453.2c09646a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf59bbee.css",
-    "static/js/main.d6156081.js"
+    "static/js/main.326fde2f.js"
   ]
 }
