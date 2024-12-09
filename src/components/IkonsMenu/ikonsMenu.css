@@ -97,7 +97,7 @@
     left: -55vw;
     z-index: 6;
     width: 50vw;
-    height: 21vh;
+    height: 22vh;
     font-size: 1.1rem;
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@
     }
 
     .btnIkonsMenu {
-        height: 4.7vh;
+        height: 5vh;
     }
 
     .imgikons {
@@ -171,6 +171,9 @@
 
     #ulIdDrop {
         top: 10vh;
+        left: -53vw;
+        width: 50vw;
+        height: 17vh;
     }
 }
 
@@ -189,10 +192,12 @@
         max-width: 1.3rem;
         height: 1.3rem;
     }
+
     .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
         top: 10vh;
         height: 3%;
     }
+
     .clButtonsBear button {
         font-size: 0.9em;
     }
@@ -237,27 +242,31 @@
         max-width: 1.3rem;
         height: 1.3rem;
     }
+
     .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
         top: 12vh;
         height: 4%;
     }
+
     .clButtonsBear button {
         font-size: 0.9em;
     }
+
     .sortButton {
         top: 0;
     }
+
     #ulIdDrop {
         top: 10vh;
         width: 30vw;
-        height: calc(100vh / 2 - 24vh) ;
+        height: calc(100vh / 2 - 24vh);
         left: calc(100% / 2 - 53vw);
     }
 }
 
 @media only screen and (min-width: 1360px) and (max-width: 1559px) {
     .classIkonsMenu {
-        top: 7vh;
+        top: 6vh;
     }
 
     .btnIkonsMenu {
@@ -270,10 +279,12 @@
         max-width: 1.3rem;
         height: 1.3rem;
     }
+
     .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
         top: 12vh;
         height: 4%;
     }
+
     .clButtonsBear button {
         font-size: 0.9em;
     }
@@ -285,7 +296,7 @@
     #ulIdDrop {
         top: 10vh;
         width: 30vw;
-        height: calc(100vh / 2 - 30vh) ;
+        height: calc(100vh / 2 - 21vh);
         left: calc(100% / 2 - 53vw);
     }
 
@@ -318,10 +329,12 @@
         max-width: 1.4rem;
         height: 1.5rem;
     }
+
     .clButtonsBear, .clButtonsFood, .clButtonsDiscount, .clButtonsSearch {
         top: 13vh;
         height: 4%;
     }
+
     .clButtonsBear button {
         font-size: 1em;
     }
@@ -333,7 +346,7 @@
     #ulIdDrop {
         top: 10vh;
         width: 30vw;
-        height: calc(100vh / 2 - 21vh) ;
+        height: calc(100vh / 2 - 21vh);
         left: calc(100% / 2 - 53vw);
     }
 

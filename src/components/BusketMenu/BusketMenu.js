@@ -1,5 +1,5 @@
 import "./busketMenu.css";
-import BusketPayment from "./BusketPayment";
+import BusketPayment from "../BusketPayment/BusketPayment";
 
 
 export default function BusketMenu({

@@ -1,7 +1,7 @@
 import "./ikonsMenu.css";
 import {useEffect, useState} from "react";
-import BeerListAll from "./BeerListAll";
-import SeeInformation from "./SeeInformation";
+import BeerListAll from "../BeerListAll/BeerListAll";
+import SeeInformation from "../SeeInformation/SeeInformation";
 
 
 export default function IkonsMenu({addCart, loading, beers, fetchBeers, cart}) {

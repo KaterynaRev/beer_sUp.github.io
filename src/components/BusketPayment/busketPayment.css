@@ -1,3 +1,4 @@
+
 .divPaymentBusket {
     padding-top: 0;
     margin-top: 0;
@@ -141,25 +142,41 @@
 }
 
 @media screen and (max-width: 480px) {
-
-
+    .divTipsPP {
+        top: -6vh;
+    }
+    .divBtnConfirm {
+        top: -10vh;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 766px) {
     #pTips {
         left: 11vw;
-
     }
 
+    .divTipsPP {
+        top: -6vh;
+    }
     #pPriceSub {
-        left: 78%;
+        left: 80%;
     }
 
     #pTipsPPP {
-        left: 84.5%;
+        left: 85%;
     }
+
+    .divTotal {
+        width: 80%;
+        top: -6vh;
+    }
+
     #pTotalPrice {
         left: 82%;
+    }
+
+    .divBtnConfirm {
+        top: -5vh;
     }
 }
 
@@ -256,49 +273,59 @@
 
 @media only screen and (min-width: 1360px) and (max-width: 1559px) {
     #pTips {
-        font-size: 1.1rem;
+        font-size: 0.8rem;
+        top: -25%;
     }
+
     .divSubtotal {
-        top: -8%;
+        top: -18%;
     }
     #pPriceSub {
         left: 91%;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
 
     .divTipsPP {
-        top: -5vh;
+        top: -10vh;
     }
 
     #pTipsPPP {
-        left: 93.4%;
-        font-size: 1.1rem;
+        left: 93.6%;
+        font-size: 0.8rem;
     }
 
     .divTotal {
-        top: -5vh;
+        top: -13vh;
     }
 
     #pTotal {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     #pTotalPrice {
-        left: 92%;
-        font-size: 1.2rem;
+        left: 93%;
+        font-size: 1rem;
     }
     .divBtnConfirm {
-        top: -5vh;
+        top: -14vh;
     }
-
+    #btnConfirm {
+        height: 5vh;
+    }
 }
 
 @media only screen and (min-width: 1560px) {
     #pTips {
         font-size: 1.1rem;
+        top: -38%;
     }
+
+    .divBtnTips {
+        top: -50%;
+    }
+
     .divSubtotal {
-        top: -10%;
+        top: -20%;
     }
     #pPriceSub {
         left: 91%;
@@ -309,7 +336,7 @@
         height: 3.9vh;
     }
     .divTipsPP {
-        top: -8vh;
+        top: -9vh;
     }
 
     #pTipsPPP {

@@ -1,5 +1,5 @@
 import './App.css';
-import BeerShop from "./BeerShop";
+import BeerShop from "./components/BeerShop/BeerShop";
 
 
 function App() {

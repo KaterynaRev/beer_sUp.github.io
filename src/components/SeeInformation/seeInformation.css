@@ -156,9 +156,14 @@
         border-radius: 13px;
     }
 
+    .beerSee {
+        left: 6%;
+        width: 88%;
+    }
+
     .imgBeerSee {
         left: 61vw;
-        top: 8vh;
+        top: 4vh;
         width: 15vw;
         height: 15vh;
     }
@@ -169,7 +174,7 @@
         font-size: 0.7rem;
     }
     #btnAddCart {
-        top: 29vh;
+        top: 21vh;
         left: 58vw;
         width: 23vw;
     }
@@ -311,7 +316,7 @@
         border-radius: 14px;
         width: 140px;
         top: -50px;
-        left: 92.5%;
+        left: 91%;
     }
     .collapseButtonD, .collapseButtonP {
         width: 6rem;

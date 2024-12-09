@@ -1,5 +1,5 @@
-import IkonsMenu from "./IkonsMenu";
-import BusketMenu from "./BusketMenu";
+import IkonsMenu from "../IkonsMenu/IkonsMenu";
+import BusketMenu from "../BusketMenu/BusketMenu";
 import {useState, useEffect} from "react";
 
 export default function BeerShop() {
@@ -134,8 +134,8 @@ export default function BeerShop() {
     };
 
     const containerHeight = cart.length === 0
-        ? (isOpenBusket ? '79vh' : '10%') : (isOpenBusket ? '79vh' : '17%')
-            ? (isOpenBusket ? '79vh' : '17%') : (isOpenBusket ? '79vh' : '40%');
+        ? (isOpenBusket ? '72vh' : '10%') : (isOpenBusket ? '72vh' : '17%')
+            ? (isOpenBusket ? '72vh' : '17%') : (isOpenBusket ? '72vh' : '40%');
 
 
     const handleOpenBusket = () => {
