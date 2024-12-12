@@ -1,6 +1,7 @@
 import React from "react";
 import BeerItem from "./BeerItem";
 
+
 export default function BeerList({ beers, handleBeerClick }) {
     return (
         <div className="beerList">

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function BeerItem({ beer, onBeerClick }) {
     return (
         <div className="beerItem" onClick={(e) => onBeerClick(beer.id, e)}>
