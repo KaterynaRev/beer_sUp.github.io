@@ -1,8 +1,8 @@
 import "./busketMenu.css";
-import BusketPayment from "../BusketPayment/BusketPayment";
-import UseBasketMenu from "./UseBasketMenu";
-import InfoCartInBusket from "./InfoCartInBusket";
-import ImgBusketUpper from "./ImgBusketUpper";
+import BusketPayment from "../BusketPayment/BusketPayment.js";
+import UseBasketMenu from "./UseBasketMenu.js";
+import InfoCartInBusket from "./InfoCartInBusket.js";
+import ImgBusketUpper from "./ImgBusketUpper.js";
 import React from "react";
 
 export default function BusketMenu({

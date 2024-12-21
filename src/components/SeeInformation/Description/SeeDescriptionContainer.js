@@ -12,7 +12,8 @@ export default function SeeDescriptionContainer({
             <p className={`descriptionSee ${descriptionCollapse ? "collapsed" : ""}`}
                onClick={toggleDescriptionCollapse}>
                 {descriptionCollapse ? getWordsDescription(currentBeer.description) : currentBeer.description}</p>
-            {currentBeer.description.length > 3 && (
+            {/*{currentBeer.description.length > 3 && (*/}
+            {currentBeer.description && (
                 <button className="collapseButtonD" onClick={toggleDescriptionCollapse}>
                     {descriptionCollapse ? "Read more" : "Show less"}
                 </button>

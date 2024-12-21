@@ -250,6 +250,7 @@
 
     .clButtonsBear button {
         font-size: 0.9em;
+
     }
 
     .sortButton {
@@ -296,7 +297,7 @@
     #ulIdDrop {
         top: 10vh;
         width: 30vw;
-        height: calc(100vh / 2 - 21vh);
+        height: calc(100vh / 2 - 29vh);
         left: calc(100% / 2 - 53vw);
     }
 

@@ -1,4 +1,4 @@
-import IconsDropDown from "./IconsDropDown";
+import IconsDropDown from "./IconsDropDown.js";
 import React from "react";
 
 export default function ActiveCategory({activeCategory, handleFoodCategoryClick,

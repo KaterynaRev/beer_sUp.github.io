@@ -80,11 +80,6 @@
     left: 4px;
 }
 
-/*.beerList::after {*/
-/*    content: '';*/
-/*    flex: auto;*/
-/*}*/
-
 .nameBeerh3 {
     font-size: 0.56rem;
     width: 100%;
@@ -168,7 +163,7 @@
         left: 11%;
     }
     .nameBeerh3 {
-        left: -10%;
+        left: -10.9%;
         font-size: 0.7rem;
     }
 
@@ -200,35 +195,38 @@
 @media only screen and (min-width: 1024px) and (max-width: 1359px) {
     .beerList {
         top: 6%;
-        left: 15%;
+        left: 14.5%;
     }
     .nameBeerh3 {
-        left: -28%;
+        left: -31.5%;
         font-size: 0.7rem;
     }
 
     .priceBeerP {
-        left: -28%;
+        left: -31.5%;
         font-size: 0.7rem;
     }
     .beerItem {
         height: 16vh;
-        width: calc(33.33% - 30px);
+        width: calc(33.33% - 20px);
     }
 
     .imgBeerAll {
-        width: 33%;
+        width: calc(33.33% - 20px);
         height: 15vh;
     }
     .imgBeerAll img {
-        width: 90%;
-        height: 95%;
+        width: 100%;
+        height: 100%;
         position: relative;
-        left: 6px;
+        left: 0px;
     }
     .altText {
         font-size: 0.8rem;
         left: 10px;
+    }
+    #pLoading {
+        left: 47%;
     }
 }
 
@@ -238,7 +236,7 @@
         left: 19%;
     }
     .nameBeerh3 {
-        left: -30%;
+        left: -30.8%;
         font-size: 0.7rem;
     }
 
@@ -265,6 +263,9 @@
         font-size: 0.8rem;
         left: 10px;
     }
+    #pLoading {
+        left: 47%;
+    }
 }
 @media only screen and (min-width: 1560px) {
     .beerList {
@@ -272,7 +273,7 @@
         left: 19%;
     }
     .nameBeerh3 {
-        left: -31%;
+        left: -31.4%;
         font-size: 0.7rem;
     }
 
@@ -297,6 +298,6 @@
     }
     .altText {
         font-size: 0.8rem;
-        left: 9px;
+        left: 13px;
     }
 }

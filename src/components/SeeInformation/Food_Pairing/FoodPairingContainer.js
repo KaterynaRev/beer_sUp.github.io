@@ -15,7 +15,8 @@ export default function FoodPairingContainer({
                 Food
                 Pairings: {getWordsFoodPairings(currentBeer.food_pairing, foodPairingCollapse)}
             </p>
-            {currentBeer.food_pairing.length > 2 && (
+            {/*{currentBeer.food_pairing.length > 2 &&(*/}
+            {currentBeer.food_pairing &&(
                 <button className="collapseButtonP" onClick={togglefoodPairingCollapse}>
                     {foodPairingCollapse ? "Read more" : "Show less"}
                 </button>

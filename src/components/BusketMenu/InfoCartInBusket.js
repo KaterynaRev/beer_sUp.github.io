@@ -1,7 +1,7 @@
-import ContainerBtnAddSub from "./ContainerBtnAddSub";
+import ContainerBtnAddSub from "./ContainerBtnAddSub.js";
 import React from "react";
 
-export default function ({cart, handleCountChange, countBeer}) {
+export default function InfoCartInBusket({cart, handleCountChange, countBeer}) {
     return (
         <div className="cartInfoInBusket">
             {cart.length > 0 ? (

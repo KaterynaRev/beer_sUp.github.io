@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import BeerList from "./BeerList";
-import useSwipe from "./useSwipe";
+import BeerList from "./BeerList.js";
+import useSwipe from "./useSwipe.js";
 import "./beerListAll.css";
+
 
 export default function BeerListAll({
                                         loading,

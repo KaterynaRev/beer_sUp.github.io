@@ -1,5 +1,5 @@
 import React from "react";
-import BeerItem from "./BeerItem";
+import BeerItem from "./BeerItem.js";
 
 
 export default function BeerList({ beers, handleBeerClick }) {

@@ -3,11 +3,11 @@
     padding-top: 0;
     margin-top: 0;
     position: relative;
-    top: 16px;
+    top: 28px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 40%;
+    height: 38%;
     box-sizing: border-box;
 }
 
@@ -82,7 +82,7 @@
     position: relative;
     font-size: 0.9rem;
     letter-spacing: 2px;
-    right: -56vw;
+    right: -54vw;
 }
 
 .divTipsPP {
@@ -99,7 +99,7 @@
     position: relative;
     font-size: 0.9rem;
     letter-spacing: 1px;
-    left: 63vw;
+    left: 61.3vw;
 }
 
 .divTotal {
@@ -120,7 +120,7 @@
     position: relative;
     font-size: 1.2rem;
     letter-spacing: 2px;
-    left: 74%;
+    left: 71.6%;
 }
 
 .divBtnConfirm {
@@ -138,7 +138,7 @@
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 2px;
-    height: 3.5vh;
+    height: 3.8vh;
 }
 
 @media screen and (max-width: 480px) {
@@ -146,7 +146,7 @@
         top: -6vh;
     }
     .divBtnConfirm {
-        top: -10vh;
+        top: -9vh;
     }
 }
 
@@ -159,11 +159,11 @@
         top: -6vh;
     }
     #pPriceSub {
-        left: 80%;
+        left: 82%;
     }
 
     #pTipsPPP {
-        left: 85%;
+        left: 87.5%;
     }
 
     .divTotal {
@@ -172,7 +172,7 @@
     }
 
     #pTotalPrice {
-        left: 82%;
+        left: 84%;
     }
 
     .divBtnConfirm {
@@ -181,15 +181,19 @@
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
+
+    .divPaymentBusket {
+        top: 42px;
+    }
     #pTips {
         font-size: 1rem;
         left: 10vw;
     }
     .divBtnTips {
-        top: -28%;
+        top: -24%;
     }
     #pPriceSub {
-        left: 83.5%;
+        left: 83.9%;
         font-size: 1rem;
     }
 
@@ -198,11 +202,11 @@
     }
 
     .divTipsPP {
-        top: -5vh;
+        top: -4.6vh;
     }
 
     #pTipsPPP {
-        left: 88%;
+        left: 88.4%;
         font-size: 1rem;
     }
 
@@ -215,7 +219,7 @@
     }
 
     #pTotalPrice {
-        left: 85%;
+        left: 85.6%;
         font-size: 1.2rem;
     }
     .divBtnConfirm {
@@ -226,16 +230,16 @@
 @media only screen and (min-width: 1024px) and (max-width: 1359px) {
     #pTips {
         font-size: 1.1rem;
-        top: -10vh;
+        top: -8.5vh;
     }
     .divBtnTips {
-        top: -11vh;
+        top: -10vh;
     }
     .divSubtotal {
         top: -12vh;
     }
     #pPriceSub {
-        left: 91%;
+        left: 90.2%;
         font-size: 1.1rem;
     }
     #btnZero, #btnRound, #btnPercent, #btnCustom {
@@ -243,11 +247,11 @@
         height: 3.9vh;
     }
     .divTipsPP {
-        top: -18vh;
+        top: -17vh;
     }
 
     #pTipsPPP {
-        left: 93.6%;
+        left: 92.9%;
         font-size: 1.1rem;
     }
 
@@ -260,7 +264,7 @@
     }
 
     #pTotalPrice {
-        left: 92%;
+        left: 91.5%;
         font-size: 1.2rem;
     }
     .divBtnConfirm {
@@ -272,42 +276,48 @@
 }
 
 @media only screen and (min-width: 1360px) and (max-width: 1559px) {
+    .divPaymentBusket {
+        top: -2px;
+    }
     #pTips {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         top: -25%;
     }
-
+    #btnZero, #btnRound, #btnPercent, #btnCustom {
+        height: 3.7vh;
+        top: -2px;
+    }
     .divSubtotal {
-        top: -18%;
+        top: -14%;
     }
     #pPriceSub {
         left: 91%;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .divTipsPP {
-        top: -10vh;
+        top: -8vh;
     }
 
     #pTipsPPP {
         left: 93.6%;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .divTotal {
-        top: -13vh;
+        top: -10vh;
     }
 
     #pTotal {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     #pTotalPrice {
-        left: 93%;
+        left: 92.8%;
         font-size: 1rem;
     }
     .divBtnConfirm {
-        top: -14vh;
+        top: -11vh;
     }
     #btnConfirm {
         height: 5vh;
@@ -328,7 +338,7 @@
         top: -20%;
     }
     #pPriceSub {
-        left: 91%;
+        left: 91.9%;
         font-size: 1.1rem;
     }
     #btnZero, #btnRound, #btnPercent, #btnCustom {
@@ -340,7 +350,7 @@
     }
 
     #pTipsPPP {
-        left: 93.2%;
+        left: 94%;
         font-size: 1.1rem;
     }
 
@@ -353,7 +363,7 @@
     }
 
     #pTotalPrice {
-        left: 92%;
+        left: 93%;
         font-size: 1.2rem;
     }
     .divBtnConfirm {

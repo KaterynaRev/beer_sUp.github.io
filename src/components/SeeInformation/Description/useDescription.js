@@ -7,6 +7,9 @@ export default function useDescription(){
         setDescriptionCollapse(!descriptionCollapse);
     }
     const getWordsDescription = (description) => {
+        if (!description || description.trim() === "") {
+            return "No description";
+        }
         const words = description.split(" ");
         const firstSomeWords = words.slice(0, 4);
         return firstSomeWords;

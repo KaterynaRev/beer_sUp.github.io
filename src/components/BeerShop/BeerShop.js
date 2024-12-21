@@ -1,16 +1,13 @@
-import IkonsMenu from "../IkonsMenu/IkonsMenu";
-import BusketMenu from "../BusketMenu/BusketMenu";
+import IkonsMenu from "../IkonsMenu/IkonsMenu.js";
+import BusketMenu from "../BusketMenu/BusketMenu.js";
 import {useEffect} from "react";
-import UseLocalStorage from "../BeersLocaleStorage/UseLocalStorage";
-import UseBasketMenu from "../BusketMenu/UseBasketMenu";
-import FetchBeers from "../FetchBeers/FetchBeers";
+import UseLocalStorage from "../BeersLocaleStorage/UseLocalStorage.js";
+import UseBasketMenu from "../BusketMenu/UseBasketMenu.js";
+import FetchBeers from "../FetchBeers/FetchBeers.js";
 import React from "react";
 
 
 export default function BeerShop() {
-    // const apiKey = process.env.REACT_APP_RAPIDAPI_KEY;
-    // const apiUrl = process.env.API_URL;
-
     const {fetchBeers, loading, beers} = FetchBeers();
 
     useEffect(() => {

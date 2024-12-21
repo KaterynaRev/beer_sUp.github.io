@@ -71,7 +71,7 @@
 }
 
 .altTextImg {
-    font-size: 0.45rem;
+    font-size: 0.6rem;
     color: #555;
     position: relative;
     width: 90px;
@@ -177,9 +177,16 @@
         top: 21vh;
         left: 58vw;
         width: 23vw;
+
     }
     .collapseButtonD, .collapseButtonP {
         width: 5rem;
+    }
+    .altTextImg {
+        font-size: 0.8rem;
+        width: 90px;
+        height: 100px;
+        left: 6px;
     }
 }
 
@@ -223,6 +230,7 @@
         width: 18vw;
         left: 60vw;
         top: 18vh;
+
     }
     .collapseButtonD, .collapseButtonP {
         width: 6rem;
@@ -268,8 +276,9 @@
         font-size: 0.9rem;
         border-radius: 14px;
         width: 125px;
-        top: -50px;
+        top: 10px;
         left: 92.5%;
+
     }
     .collapseButtonD, .collapseButtonP {
         width: 6rem;
@@ -315,8 +324,9 @@
         font-size: 0.8rem;
         border-radius: 14px;
         width: 140px;
-        top: -50px;
-        left: 91%;
+        top: 10px;
+        left: 92.4%;
+
     }
     .collapseButtonD, .collapseButtonP {
         width: 6rem;
@@ -362,8 +372,9 @@
         font-size: 0.8rem;
         border-radius: 14px;
         width: 8vw;
-        top: -50px;
+        top: 10px;
         left: 91.5%;
+
     }
     .collapseButtonD, .collapseButtonP {
         width: 6rem;

@@ -1,8 +1,8 @@
 import "./seeInformation.css";
-import SeeDescriptionContainer from "./Description/SeeDescriptionContainer";
-import useDescription from "./Description/useDescription";
-import FoodPairingContainer from "./Food_Pairing/FoodPairingContainer";
-import useFood_PairingContainer from "./Food_Pairing/useFood_PairingContainer";
+import SeeDescriptionContainer from "./Description/SeeDescriptionContainer.js";
+import useDescription from "./Description/useDescription.js";
+import FoodPairingContainer from "./Food_Pairing/FoodPairingContainer.js";
+import useFood_PairingContainer from "./Food_Pairing/useFood_PairingContainer.js";
 import React from "react";
 
 
@@ -48,8 +48,8 @@ export default function SeeInformation({
                                     )}
                                 </div>
                                 <h3 className="nameBeerh3See">{currentBeer.name}</h3>
-                                <p className="tagLineSee">{currentBeer.tagline}</p>
-                                <p className="abvSee">ABV {currentBeer.abv}%</p>
+                                <p className="tagLineSee">{currentBeer.tagline ? currentBeer.tagline : "No tagline"}</p>
+                                <p className="abvSee">{currentBeer.abv ? (currentBeer.abv + "%") : "No ABV" }</p>
                                 <SeeDescriptionContainer toggleDescriptionCollapse={toggleDescriptionCollapse}
                                                          getWordsDescription={getWordsDescription}
                                                          descriptionCollapse={descriptionCollapse}

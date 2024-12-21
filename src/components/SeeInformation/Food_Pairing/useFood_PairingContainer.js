@@ -8,6 +8,9 @@ export default function useFood_PairingContainer(){
     }
 
     const getWordsFoodPairings = (food_pairing, foodPairingCollapse) => {
+        if (!food_pairing || food_pairing.trim() === "") {
+            return "No food pairing available";
+        }
         const fS = food_pairing.split(" ");
         const fSt = fS.slice(0, 2);
         if (foodPairingCollapse) {

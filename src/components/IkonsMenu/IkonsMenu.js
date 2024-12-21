@@ -1,10 +1,10 @@
 import "./ikonsMenu.css";
-import BeerListAll from "../BeerListAll/BeerListAll";
-import SeeInformation from "../SeeInformation/SeeInformation";
-import UseIconsMenu from "./UseIconsMenu";
-import IconsUpper from "./IconsUpper";
-import ActiveCategory from "./ActiveCategory";
-import CategotyButton from "./CategotyButton";
+import BeerListAll from "../BeerListAll/BeerListAll.js";
+import SeeInformation from "../SeeInformation/SeeInformation.js";
+import UseIconsMenu from "./UseIconsMenu.js";
+import IconsUpper from "./IconsUpper.js";
+import ActiveCategory from "./ActiveCategory.js";
+import CategotyButton from "./CategotyButton.js";
 import React from "react";
 
 

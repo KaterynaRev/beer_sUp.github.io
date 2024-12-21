@@ -1,7 +1,7 @@
 import "./busketPayment.css"
 import React from "react";
-import TipsForWaiters from "./TipsForWaiters/TipsForWaiters";
-import TotalPrice from "./TotalPrice";
+import TipsForWaiters from "./TipsForWaiters/TipsForWaiters.js";
+import TotalPrice from "./TotalPrice.js";
 
 
 export default function BusketPayment({totalPrice}) {
