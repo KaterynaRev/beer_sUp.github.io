@@ -15,7 +15,7 @@ export default function TipsForWaiters({totalPrice}) {
             </div>
             <div className="divSubtotal">
                 <p id="pSubtotal">Subtotal</p>
-                <p id="pPriceSub">{totalPrice.toFixed(2)}</p>
+                <p id="pPriceSub">{totalPrice}</p>
             </div>
             <div className="divTipsPP">
                 <p id="pTipsPP">Tips</p>

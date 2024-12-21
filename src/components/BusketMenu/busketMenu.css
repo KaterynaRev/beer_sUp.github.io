@@ -107,10 +107,11 @@
     width: 40%;
     position: relative;
     top: 2px;
-    left: 4%;
     color: white;
     letter-spacing: 1px;
     font-size: 0.7rem;
+    left: 8%;
+    text-align: left;
 }
 
 .priceBeerDivCart {
@@ -515,7 +516,7 @@
     }
 
     .priceBeerDivCart {
-        width: 2%;
+        width: 3%;
         height: 19px;
         left: -37%;
         top: -3px;
@@ -528,8 +529,9 @@
 
     .nameBeerh3Cart {
         top: 0;
-        left: -6%;
+        left: 8%;
         font-size: 1rem;
+        text-align: left;
     }
 
     .containerBtnAddSub {
@@ -620,7 +622,7 @@
     }
 
     .priceBeerDivCart {
-        width: 2%;
+        width: 3%;
         height: 14px;
         left: -37%;
         top: -2px;
@@ -725,7 +727,7 @@
     }
 
     .priceBeerDivCart {
-        width: 2%;
+        width: 3%;
         height: 19px;
         left: -37%;
         top: -2px;

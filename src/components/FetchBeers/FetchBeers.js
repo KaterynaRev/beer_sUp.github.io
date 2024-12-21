@@ -6,8 +6,7 @@ export default function FetchBeers() {
 
     const fetchBeers = (foodType = " ") => {
         setLoading(true);
-        fetch('http://localhost:3001/api/beer', {
-        })
+        fetch('https://api.sampleapis.com/beers/ale')
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
@@ -28,14 +27,12 @@ export default function FetchBeers() {
                     });
                     setBeers(filteredBeers);
                 } else {
-                    setBeers(data.data);
-                    console.log("else data:", data);
+                    setBeers(data);
                 }
                 setLoading(false);
             })
             .catch(error => {
                 setLoading(false);
-                console.error("Error fetching data:", error);
             });
     };
 

@@ -37,11 +37,19 @@ export default function BeerShop() {
         updateCartInLocalStorage();
     }, [cart, countBeer])
 
+    // const getTotalPrice = () => {
+    //     return cart.reduce((total, beer) => {
+    //         const beerCount = countBeer[beer.id] || 0;
+    //         return total + (beerCount * beer.price);
+    //     }, 0);
+    // };
+
     const getTotalPrice = () => {
         return cart.reduce((total, beer) => {
             const beerCount = countBeer[beer.id] || 0;
-            return total + (beerCount * beer.price);
-        }, 0);
+            const numericPrice = parseFloat(beer.price.replace("$", ""));
+            return total + (beerCount * numericPrice);
+        }, 0).toFixed(2);
     };
 
     const {

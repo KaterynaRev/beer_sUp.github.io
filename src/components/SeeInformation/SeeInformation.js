@@ -48,7 +48,7 @@ export default function SeeInformation({
                                     )}
                                 </div>
                                 <h3 className="nameBeerh3See">{currentBeer.name}</h3>
-                                <p className="tagLineSee">{currentBeer.tagline ? currentBeer.tagline : "No tagline"}</p>
+                                <p className="tagLineSee">Rating: {currentBeer.rating.average ? currentBeer.rating.average : "No tagline"}</p>
                                 <p className="abvSee">{currentBeer.abv ? (currentBeer.abv + "%") : "No ABV" }</p>
                                 <SeeDescriptionContainer toggleDescriptionCollapse={toggleDescriptionCollapse}
                                                          getWordsDescription={getWordsDescription}

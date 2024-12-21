@@ -40,7 +40,7 @@ export default function IkonsMenu({addCart, loading, beers, fetchBeers, cart}) {
                                 handleSortOpenToggle={handleSortOpenToggle}/>
                 <CategotyButton activeCategory={activeCategory}/>
             </div>
-            {activeCategory === "drinks" && beers.length > 0 && (
+            {activeCategory === "drinks" && Array.isArray(beers) && beers.length > 0 && (
                 <BeerListAll loading={loading}
                              beers={sortBeers(beers, sortOption)}
                              activeDrinks={activeDrinks}

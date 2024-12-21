@@ -239,7 +239,7 @@
         top: -12vh;
     }
     #pPriceSub {
-        left: 90.2%;
+        left: 89%;
         font-size: 1.1rem;
     }
     #btnZero, #btnRound, #btnPercent, #btnCustom {
@@ -251,7 +251,7 @@
     }
 
     #pTipsPPP {
-        left: 92.9%;
+        left: 92.5%;
         font-size: 1.1rem;
     }
 
@@ -264,7 +264,7 @@
     }
 
     #pTotalPrice {
-        left: 91.5%;
+        left: 90.2%;
         font-size: 1.2rem;
     }
     .divBtnConfirm {
