@@ -45,7 +45,7 @@
     ]
   },
   "homepage": "https://katerynarev.github.io/beer_sUp.github.io/",
-  "proxy": "beer-s-up-github-io.vercel.app",
+  "proxy": "https://api.catalog.beer",
   "devDependencies": {
     "gh-pages": "^6.2.0"
   },
