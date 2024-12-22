@@ -60,16 +60,15 @@
     overflow: hidden;
     position: relative;
     left: 16px;
-    align-items: center;
-    justify-items: center;
 }
 
 .imgBeerAll img {
     width: 100%;
     height: 100%;
     object-position: center;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
+    justify-content: center;
 }
 
 .altText {
@@ -209,17 +208,19 @@
     .beerItem {
         height: 16vh;
         width: calc(33.33% - 20px);
+        justify-content: center;
     }
 
     .imgBeerAll {
         width: calc(33.33% - 20px);
-        height: 15vh;
+        height: 14vh;
     }
     .imgBeerAll img {
         width: 100%;
         height: 100%;
         position: relative;
-        left: 0px;
+        object-position: center;
+        object-fit: contain;
     }
     .altText {
         font-size: 0.8rem;

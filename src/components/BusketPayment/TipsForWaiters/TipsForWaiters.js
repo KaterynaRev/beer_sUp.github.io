@@ -19,7 +19,7 @@ export default function TipsForWaiters({totalPrice}) {
             </div>
             <div className="divTipsPP">
                 <p id="pTipsPP">Tips</p>
-                <p id="pTipsPPP">price</p>
+                <p id="pTipsPPP">0.00</p>
             </div>
         </>
     )

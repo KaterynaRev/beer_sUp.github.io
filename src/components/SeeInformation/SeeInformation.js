@@ -39,8 +39,8 @@ export default function SeeInformation({
                         <div className="beerListSee">
                             <div key={currentBeer.id} className="beerItemSee">
                                 <div className="imgBeerSee">
-                                    {currentBeer.image_url ? (
-                                        <img src={currentBeer.image_url}
+                                    {currentBeer.image ? (
+                                        <img src={currentBeer.image}
                                              alt={currentBeer.name}
                                              onError={(e) => e.target.style.display = 'none'}/>
                                     ) : (

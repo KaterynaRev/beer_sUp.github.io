@@ -86,7 +86,7 @@
 
 .imgBeerCart img {
     object-position: center;
-    object-fit: cover;
+    object-fit: contain;
     position: relative;
     width: 90%;
     height: 90%;

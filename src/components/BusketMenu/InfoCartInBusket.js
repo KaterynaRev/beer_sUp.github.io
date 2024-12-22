@@ -8,8 +8,8 @@ export default function InfoCartInBusket({cart, handleCountChange, countBeer}) {
                 cart.map((cartS) => (
                     <div key={cartS.id} className="divInfoC">
                         <div className="imgBeerCart">
-                            {cartS.image_url ? (
-                                <img src={cartS.image_url} alt={cartS.name}
+                            {cartS.image ? (
+                                <img src={cartS.image} alt={cartS.name}
                                      onError={(e) => e.target.style.display = 'none'}/>
                             ) : (
                                 <span className="altTextB">{cartS.name}</span>
